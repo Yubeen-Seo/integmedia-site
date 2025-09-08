@@ -1,0 +1,12 @@
+# C:\Users\ahxh1\Desktop\인테그미디어\웹사이트\integmedia-site\netlify.toml
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# ✅ 최우선: 모든 경로를 점검 페이지로 리라이트
+[[redirects]]
+  from = "/*"
+  to = "/maintenance.html"
+  status = 200
+  force = true
